@@ -1,0 +1,90 @@
+:root {
+    --primary-color-lighter: #bcc0ff;
+    --primary-color: #6e77f7;
+    --primary-color-darker: #18208d;
+    --calc-color-lighter: #c9c9c9;
+    --calc-color: #424040;
+    --calc-color-darker: #2c2b2b;
+}
+
+* {
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 415px;
+    margin: 50px auto;
+    background: var(--calc-color);
+    padding: 5px;
+    border: solid;
+    border-color: var(--calc-color-darker);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 98%;
+    text-align: right;
+    border-radius: 5px;
+    border-color: black;
+    background-color: var(--primary-color-lighter);
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+    background-color: var(--calc-color-lighter);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--calc-color);
+}
+
+.btn-eq {
+    background-color: var(--primary-color);
+}
+
+.btn-eq:hover {
+    background-color: var(--primary-color-darker);
+}
+
+.btn-del {
+    background-color: #e6d927;
+}
+
+.btn-del:hover {
+    background-color: #7c750f;
+}
+
+.btn-clear {
+    background-color: #e22525;
+}
+
+.btn-clear:hover {
+    background-color: #801212;
+}
